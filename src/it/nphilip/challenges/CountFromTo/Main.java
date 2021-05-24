@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        count(54, 101);
+        count(5, 101);
     }
 
     public static void count(int startNum, int endNum) {

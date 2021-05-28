@@ -2,7 +2,7 @@ package it.nphilip.challenges.IsMathexpression;
 
 public class Main {
     public static void main(String[] args) {
-        isMathExpression("2*2");
+        isMathExpression("2*");
     }
 
     public static void isMathExpression(String text) {

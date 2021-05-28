@@ -14,6 +14,6 @@ public class Main {
                 break;
             }
         }
-        System.out.println(words[1] + " can Build the word " + words[1] + ": " + contains);
+        System.out.println(words[1] + " can Build the word " + words[0] + ": " + contains);
     }
 }

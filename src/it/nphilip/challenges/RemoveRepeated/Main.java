@@ -19,9 +19,9 @@ public class Main {
             }
         }
 
-        for (int i = 0; i < textCharList.length; i++) {
-            if(textCharList[i] != 0) {
-                System.out.print(textCharList[i]);
+        for (char c : textCharList) {
+            if (c != 0) {
+                System.out.print(c);
             }
         }
     }

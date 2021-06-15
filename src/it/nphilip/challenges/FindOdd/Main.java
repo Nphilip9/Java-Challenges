@@ -8,7 +8,7 @@ public class Main {
 
     public static void findOdd(int[] arr) {
         for (int element : arr) {
-            if(element % 2 == 1) {
+            if(element % 2 != 1) {
                 System.out.println(element + " is a Odd number");
             }
         }

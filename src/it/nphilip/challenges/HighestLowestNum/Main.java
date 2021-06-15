@@ -15,6 +15,7 @@ public class Main {
             arr[i] = Integer.parseInt(split[i]);
         }
 
-        System.out.println(Arrays.stream(arr).sorted().toArray()[arr.length - 1]);
+        System.out.println(Arrays.stream(arr).sorted().toArray()[0] + " " +
+                Arrays.stream(arr).sorted().toArray()[arr.length - 1]);
     }
 }

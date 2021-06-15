@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class Main {
 
     public static void main(String[] args) {
-        arrayMultiplied(7, 5);
+        arrayMultiplied(7, 9);
     }
 
     public static void arrayMultiplied(int multiplier, int range) {
